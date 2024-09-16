@@ -139,6 +139,13 @@ Run Individual tests
 
 ```py.test -k test function name```
 
+To compute and visualize the coverage, run the following commands
+
+```bash
+coverage run -m pytest
+coverage html
+open htmlcov/index.html 
+```
 
 # Galaxy Package
 
